@@ -101,8 +101,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/nohawaheed/Insure-landing-page)
-- Live Site URL: [Add live site URL here](nohawaheed.github.io/Insure-landing-page)
+- Solution URL: [https://github.com/nohawaheed/Insure-landing-page]
+- Live Site URL: [nohawaheed.github.io/Insure-landing-page]
 
 ## My process
 
