@@ -1,0 +1,40 @@
+nav {
+  z-index: 2;
+}
+.pattern {
+  z-index: 1;
+}
+
+.active-state:hover {
+  background-color: black;
+  color: white !important;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+@media screen and (max-width: 375px) {
+  .changeBg {
+    background-color: hsl(270, 9%, 17%) !important;
+    text-align: center !important;
+  }
+  li a {
+    color: white !important;
+  }
+  li .active-state {
+    background-color: transparent;
+    border-color: white !important;
+    color: white !important;
+  }
+  .navbar-nav {
+    padding-bottom: 130px !important;
+  }
+  .pattern {
+    top: 90% !important;
+  }
+  .mobile-nav-pattern {
+    display: flex !important;
+    top: 56%;
+  }
+}

@@ -1,0 +1,23 @@
+.line::before {
+  content: "";
+  display: block;
+  margin-bottom: 50px;
+  width: 25%;
+  height: 1px;
+  background-color: #ffffff;
+}
+
+.active:hover {
+  background-color: white !important;
+  color: black !important;
+}
+
+.pattern-left {
+  top: 70%;
+}
+
+@media screen and (max-width: 375px) {
+  .pattern-left {
+    top: 54%;
+  }
+}

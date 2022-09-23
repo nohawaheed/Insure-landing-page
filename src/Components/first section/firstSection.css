@@ -1,0 +1,22 @@
+@media screen and (min-width: 768px) {
+  .line-style::before {
+    content: "";
+    display: block;
+    margin-top: 150px;
+    width: 15%;
+    height: 1px;
+    background-color: black;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .line-style::before {
+    content: "";
+    display: block;
+    margin: auto;
+    margin-top: 150px;
+    width: 35%;
+    height: 1px;
+    background-color: black;
+  }
+}
