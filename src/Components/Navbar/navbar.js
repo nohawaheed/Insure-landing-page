@@ -32,8 +32,7 @@ class Navbar extends React.Component {
               onClick={() => {
                 this.handleClick();
               }}
-              className="navbar-toggler"
-              type="button"
+              className="navbar-toggler open-close"
               data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent"
               aria-controls="navbarSupportedContent"
@@ -48,14 +47,14 @@ class Navbar extends React.Component {
               id="navbarSupportedContent"
             >
               <ul className="navbar-nav changeBg ms-auto p-2 mb-2 mb-lg-0 py-2 fw-bold position-relative">
-                <div className="mobile-nav-pattern d-none position-absolute">
+                <li className="mobile-nav-pattern d-none position-absolute">
                   <img
                     alt=""
                     aria-hidden="true"
                     className="img-fluid"
                     src={navmobilePattern}
                   ></img>
-                </div>
+                </li>
                 <li className="nav-item pt-3 pt-md-0">
                   <a
                     className="nav-link pe-md-3"

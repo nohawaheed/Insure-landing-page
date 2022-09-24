@@ -37,4 +37,7 @@ nav {
     display: flex !important;
     top: 56%;
   }
+  .open-close {
+    cursor: pointer;
+  }
 }

@@ -9,7 +9,7 @@ class FirstSection extends React.Component {
   render() {
     return (
       <>
-        <section className="container pt-md-5 text-center text-md-start">
+        <main className="container pt-md-5 text-center text-md-start">
           <div className="line-style">
             <h2 className="display-3 fw-bold pt-5">We’re different</h2>
           </div>
@@ -35,7 +35,7 @@ class FirstSection extends React.Component {
               />
             </div>
           </div>
-        </section>
+        </main>
       </>
     );
   }

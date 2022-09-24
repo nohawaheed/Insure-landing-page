@@ -14,7 +14,7 @@ class Footer extends React.Component {
   render() {
     return (
       <>
-        <div className="container-fluid bg-gray position-relative py-2 ">
+        <footer className="container-fluid bg-gray position-relative py-2 ">
           <div className="position-absolute top-0 start-0">
             <ResizeScreen
               mobileImg={footermobilepattern}
@@ -83,7 +83,7 @@ class Footer extends React.Component {
           <div className="attribution d-flex justify-content-center">
             Challenge by
             <a
-              href="https://www.frontendmentor.io?ref=challenge"
+              href="https://www.frontendmentor.io/solutions/insure-landing-page-using-reactjs-K5KEQmKygG"
               target="_blank"
               rel="noreferrer"
               className="text-decoration-none"
@@ -91,12 +91,17 @@ class Footer extends React.Component {
               Frontend Mentor
             </a>
             . Coded by
-            <a href="#Noha Waheed" className="text-decoration-none">
+            <a
+              href="https://www.frontendmentor.io/profile/nohawaheed"
+              target="_blank"
+              rel="noreferrer"
+              className="text-decoration-none"
+            >
               Noha Waheed
             </a>
             .
           </div>
-        </div>
+        </footer>
       </>
     );
   }

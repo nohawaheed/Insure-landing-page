@@ -7,7 +7,7 @@ class SecondSection extends React.Component {
   render() {
     return (
       <>
-        <div className="container p-5 bg-violet my-md-5 position-relative">
+        <section className="container p-5 bg-violet my-md-5 position-relative">
           <div className="position-absolute top-0 end-0">
             <ResizeScreen
               mobileImg={patternMobile}
@@ -29,7 +29,7 @@ class SecondSection extends React.Component {
               </a>
             </div>
           </div>
-        </div>
+        </section>
       </>
     );
   }
