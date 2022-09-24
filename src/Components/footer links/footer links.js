@@ -22,16 +22,20 @@ class FooterLinks extends React.Component {
                 {this.props.link2}
               </a>
             </li>
-            <li className="pb-2">
-              <a href="#test" className="text-decoration-none text-dark">
-                {this.props.link3}
-              </a>
-            </li>
-            <li className="pb-2">
-              <a href="#test" className="text-decoration-none text-dark">
-                {this.props.link4}
-              </a>
-            </li>
+            {this.props.link3 ? (
+              <li className="pb-2">
+                <a href="#test" className="text-decoration-none text-dark">
+                  {this.props.link3}
+                </a>
+              </li>
+            ) : null}
+            {this.props.link4 ? (
+              <li className="pb-2">
+                <a href="#test" className="text-decoration-none text-dark">
+                  {this.props.link4}
+                </a>
+              </li>
+            ) : null}
           </ul>
         </div>
       </>
