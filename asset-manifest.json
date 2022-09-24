@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Insure-landing-page/static/css/main.9ff9528c.css",
-    "main.js": "/Insure-landing-page/static/js/main.5f282ccd.js",
+    "main.css": "/Insure-landing-page/static/css/main.1774b0de.css",
+    "main.js": "/Insure-landing-page/static/js/main.fefcc890.js",
     "static/media/image-intro-desktop.jpg": "/Insure-landing-page/static/media/image-intro-desktop.2f3429f63753a67e322b.jpg",
     "static/media/image-intro-mobile.jpg": "/Insure-landing-page/static/media/image-intro-mobile.8b8c3185ce1388b2bb9e.jpg",
     "static/media/logo.svg": "/Insure-landing-page/static/media/logo.b84080a147fc2d2276186c0349edfeec.svg",
@@ -24,11 +24,11 @@
     "static/media/icon-snappy-process.svg": "/Insure-landing-page/static/media/icon-snappy-process.eea918825472aa9c0993c85ced5522e7.svg",
     "static/media/icon-close.svg": "/Insure-landing-page/static/media/icon-close.f964824b48f9414b2ad2da1c4817ec5f.svg",
     "static/media/icon-hamburger.svg": "/Insure-landing-page/static/media/icon-hamburger.d550a648e0286cb7dddf1b1c8fc23d17.svg",
-    "main.9ff9528c.css.map": "/Insure-landing-page/static/css/main.9ff9528c.css.map",
-    "main.5f282ccd.js.map": "/Insure-landing-page/static/js/main.5f282ccd.js.map"
+    "main.1774b0de.css.map": "/Insure-landing-page/static/css/main.1774b0de.css.map",
+    "main.fefcc890.js.map": "/Insure-landing-page/static/js/main.fefcc890.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ff9528c.css",
-    "static/js/main.5f282ccd.js"
+    "static/css/main.1774b0de.css",
+    "static/js/main.fefcc890.js"
   ]
 }
