@@ -24,7 +24,7 @@ class Navbar extends React.Component {
     return (
       <>
         <nav className="navbar navbar-expand-lg bg-white position-relative">
-          <div className="container">
+          <div className="container px-md-5">
             <a className="navbar-brand fw-bold ps-3 ps-md-0" href="#Insure">
               <img alt="logo" src={logo} />
             </a>

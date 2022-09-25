@@ -22,7 +22,7 @@ class Footer extends React.Component {
             />
           </div>
           <div className="container position-relative">
-            <div className="row ">
+            <div className="row mx-5">
               <div className=" border-bottom d-flex flex-md-row flex-column justify-content-between pt-5 pb-4">
                 <div className="text-center">
                   <img src={logo} alt="logo" className="img-fluid" />
@@ -51,7 +51,7 @@ class Footer extends React.Component {
                 </div>
               </div>
             </div>
-            <div className="row text-uppercase fw-bold pt-5 text-center text-md-start">
+            <div className="mx-5 row text-uppercase fw-bold pt-5 text-center text-md-start">
               <FooterLinks
                 title="Our company"
                 link1="How we work"
@@ -79,27 +79,6 @@ class Footer extends React.Component {
                 link3="Licenses"
               />
             </div>
-          </div>
-          <div className="attribution d-flex justify-content-center">
-            Challenge by
-            <a
-              href="https://www.frontendmentor.io/solutions/insure-landing-page-using-reactjs-K5KEQmKygG"
-              target="_blank"
-              rel="noreferrer"
-              className="text-decoration-none"
-            >
-              Frontend Mentor
-            </a>
-            . Coded by
-            <a
-              href="https://www.frontendmentor.io/profile/nohawaheed"
-              target="_blank"
-              rel="noreferrer"
-              className="text-decoration-none"
-            >
-              Noha Waheed
-            </a>
-            .
           </div>
         </footer>
       </>
