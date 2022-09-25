@@ -13,18 +13,11 @@
 }
 
 .pattern-left {
-  top: 73%;
+  top: 70%;
 }
 
 @media screen and (max-width: 375px) {
   .pattern-left {
-    top: 50%;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1400px) {
-  .family-img {
-    position: absolute;
-    right: 7.5%;
+    top: 54%;
   }
 }
