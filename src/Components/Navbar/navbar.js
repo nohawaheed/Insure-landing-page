@@ -26,7 +26,7 @@ class Navbar extends React.Component {
         <nav className="navbar navbar-expand-lg bg-white position-relative">
           <div className="container">
             <a className="navbar-brand fw-bold ps-3 ps-md-0" href="#Insure">
-              <img alt="logo" src={logo}></img>
+              <img alt="logo" src={logo} />
             </a>
             <img
               onClick={() => {
@@ -41,7 +41,7 @@ class Navbar extends React.Component {
               aria-hidden="true"
               src={isOpen ? `${closeIcon}` : `${togglerIcon}`}
               alt=""
-            ></img>
+            />
             <div
               className="collapse navbar-collapse "
               id="navbarSupportedContent"
@@ -53,7 +53,7 @@ class Navbar extends React.Component {
                     aria-hidden="true"
                     className="img-fluid"
                     src={navmobilePattern}
-                  ></img>
+                  />
                 </li>
                 <li className="nav-item pt-3 pt-md-0">
                   <a

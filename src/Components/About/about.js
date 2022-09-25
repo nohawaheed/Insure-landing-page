@@ -14,7 +14,7 @@ class About extends React.Component {
             alt=""
             aria-hidden="true"
             src={this.props.img}
-          ></img>
+          />
           <h3 className="pt-4 pb-2 "> {this.props.title}</h3>
           <p className="color-grayish-violet">{this.props.body}</p>
         </div>

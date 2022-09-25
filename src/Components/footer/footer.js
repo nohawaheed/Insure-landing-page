@@ -25,29 +25,29 @@ class Footer extends React.Component {
             <div className="row ">
               <div className=" border-bottom d-flex flex-md-row flex-column justify-content-between pt-5 pb-4">
                 <div className="text-center">
-                  <img src={logo} alt="logo" className="img-fluid"></img>
+                  <img src={logo} alt="logo" className="img-fluid" />
                 </div>
                 <div className="text-center mt-5 mt-md-0">
                   <img
                     src={facebook}
                     alt="facebook-icon"
                     className="pe-3 img-fluid icon"
-                  ></img>
+                  />
                   <img
                     src={twitter}
                     alt="twitter-icon"
                     className="pe-3 img-fluid icon"
-                  ></img>
+                  />
                   <img
                     src={pinterest}
                     alt="pinterest-icon"
                     className="pe-3 img-fluid icon"
-                  ></img>
+                  />
                   <img
                     src={instagram}
                     alt="instagram-icon"
                     className=" img-fluid icon"
-                  ></img>
+                  />
                 </div>
               </div>
             </div>
