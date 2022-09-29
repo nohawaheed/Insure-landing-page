@@ -16,7 +16,7 @@ class About extends React.Component {
             src={this.props.img}
           />
           <h3 className="pt-4 pb-2 fs-4"> {this.props.title}</h3>
-          <p className="small color-grayish-violet">{this.props.body}</p>
+          <p className="color-grayish-violet">{this.props.body}</p>
         </div>
       </>
     );

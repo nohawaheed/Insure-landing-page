@@ -10,10 +10,10 @@ class FirstSection extends React.Component {
     return (
       <>
         <main className="container pt-md-5 text-center text-md-start">
-          <div className="line-style pt-md-5 mx-5">
+          <div className="line-style pt-md-5 mx-md-5">
             <h2 className="display-3 fw-bold pt-5">We’re different</h2>
           </div>
-          <div className="row py-md-5 mx-5">
+          <div className="row py-md-5 mx-md-5">
             <About
               img={snappyProcess}
               title="Snappy Process"

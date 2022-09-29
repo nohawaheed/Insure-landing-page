@@ -24,7 +24,7 @@ class Navbar extends React.Component {
     return (
       <>
         <nav className="navbar navbar-expand-lg bg-white position-relative">
-          <div className="container px-md-5">
+          <div className="container ps-md-5 px-xxl-5">
             <a className="navbar-brand fw-bold ps-3 ps-md-0" href="#Insure">
               <img alt="logo" src={logo} />
             </a>
@@ -43,7 +43,7 @@ class Navbar extends React.Component {
               alt=""
             />
             <div
-              className="collapse navbar-collapse "
+              className="collapse navbar-collapse"
               id="navbarSupportedContent"
             >
               <ul className="navbar-nav changeBg ms-auto p-2 mb-2 mb-lg-0 py-2 fw-bold position-relative">

@@ -40,4 +40,7 @@ nav {
   .open-close {
     cursor: pointer;
   }
+  .container {
+    padding: 0;
+  }
 }

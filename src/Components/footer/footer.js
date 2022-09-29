@@ -22,7 +22,7 @@ class Footer extends React.Component {
             />
           </div>
           <div className="container position-relative">
-            <div className="row mx-5">
+            <div className="row mx-md-5">
               <div className=" border-bottom d-flex flex-md-row flex-column justify-content-between pt-5 pb-4">
                 <div className="text-center">
                   <img src={logo} alt="logo" className="img-fluid" />

@@ -10,15 +10,15 @@ class Header extends React.Component {
   render() {
     return (
       <>
-        <header className=" bg-violet mb-5 pb-5 position-relative">
-          <div className="container pt-md-5 py-md-2">
-            <div className="row pt-md-2 pb-5 px-md-5">
-              <div className=" col-md-7 pt-4 pb-md-4 text-white text-md-start text-center">
+        <header className=" bg-violet mb-5 mb-md-5 pb-md-5 position-relative">
+          <div className="container pt-md-5 mb-5 py-xl-2">
+            <div className="row pt-md-2 pb-5 mt-5 pb-md-2 px-md-5">
+              <div className=" col-md-7 pt-5 pb-5 text-white text-md-start text-center">
                 <div className="line d-none d-md-block"></div>
-                <h1 className="display-3 lh-1 pt-5 pt-md-2">
+                <h1 className="display-3 lh-1 pt-5 pt-md-4 pt-xl-2">
                   Humanizing <br /> your insurance.
                 </h1>
-                <p className="pt-3 pb-4 small">
+                <p className="pt-3 pb-4 m-0">
                   Get your life insurance coverage easier and faster. We blend
                   our expertise <br /> and technology to help you find the plan
                   that’s right for you. Ensure you <br /> and your loved ones
@@ -31,7 +31,7 @@ class Header extends React.Component {
                   VIEW PLANS
                 </a>
               </div>
-              <div className="col-md-5 mx-md-5 pt-md-5 order-first order-md-last family-img">
+              <div className="col-md-5 pt-md-5 order-first order-md-last family-img">
                 <ResizeScreen
                   mobileImg={smallFamilyImage}
                   desktopImg={bigFamilyImage}
